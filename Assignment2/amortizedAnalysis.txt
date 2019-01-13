@@ -1,0 +1,13 @@
+/* David Rider
+** CS 261
+** Aptil 21, 2017
+** Assignment 2
+*/
+1.
+	The total cost of performing 32 consecutive pushes is 56. The complexity is O(1).
+
+2.  The total cost of performing 32 consecutive pushes where the array 		grows by 2 spaces is 260. The complexity is O(n).
+
+3. 	If the stack was pushed until it was full, and then popped, causing 	it to shrik, then the performace would be O(n^2).
+
+	One would need to change the shrinking policy from N/2 to N/4 or N/6 to offset the poor performance.
